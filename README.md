@@ -28,7 +28,7 @@ now we'll logout as root and login with our new user using ssh
 #### theird, turn off password authnitcation 
 passwords can be guessed , keys is now 
 so we will creat public and privet key
-> simple eplaintion : the public key will be in the server , the privet key will be with you and anyone who have the key can join the server 
+> simple eplaintion : the public key will be in the server , the privet key will be with you and anyone who have the key can join the server .
 so the first command we need to make a file for those keys
 ``` mkdir ~/. ssh && chmod 700 ~/.ssh```
 then ```logout```
