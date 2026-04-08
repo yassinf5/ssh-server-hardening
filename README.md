@@ -13,5 +13,9 @@ so we have the server how to secure it?
 #### first 
 we need to update the server , many server get hacked because it's not up to date
 we will use ```
-apt update ```
+apt update ``` and
 ``` apt dist-upgrade ```
+
+enable auto update 
+``` dpkg-reconfigure --priorty=low unattended upgrades ```
+#### seconde 
