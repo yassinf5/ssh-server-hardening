@@ -26,7 +26,7 @@ so first to creat a user
 now we'll logout as root and login with our new user using ssh
 ```ssh -p port user@ip``` 
 #### theird, turn off password authnitcation 
-passwords can be guessed , keys is now 
+passwords can be guessed , keys not.
 so we will creat public and privet key
 > simple eplaintion : the public key will be in the server , the privet key will be with you and anyone who have the key can join the server .
 > 
