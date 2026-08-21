@@ -22,7 +22,7 @@ enable auto update
 we need to creat limited user access  and add it to sudo group
 it's risky to use the user "root" espicially online
 so first to creat a user 
-```adduser username``` then to add it to sudo group ```usermod-aG sudo username```
+```adduser username``` then to add it to sudo group ```usermod -aG sudo username```
 now we'll logout as root and login with our new user using ssh
 ```ssh -p port user@ip``` 
 #### theird, turn off password authnitcation 
