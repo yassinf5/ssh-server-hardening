@@ -40,7 +40,7 @@ you will find id_rsa this the privet one
 now we will sind the public key into our server 
 for linux ```ssh-copy-id username@ip```
 #### fourth unable password authnication 
-``` sudo nano /etc/ssh/sshd-config```
+``` sudo nano /etc/ssh/sshd_config```
 change port
 change -permit root login- to no
 change password authentication to no
