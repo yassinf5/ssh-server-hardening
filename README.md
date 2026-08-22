@@ -48,4 +48,5 @@ then ``` sudo systemctl restart sshd```
 # important thing!
 do not logout imedetly after doing this step open a new termninal and try to log in to check if you didn't make any mistakes
 #### fifth, setting a firewall
-to be continued..
+```sudo apt install ufw``` 
+
